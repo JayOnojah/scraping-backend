@@ -1,0 +1,12 @@
+### Fatch all prices
+GET http://localhost:3200/scrape
+Content-Type: application/json
+
+### Create a new price
+POST http://localhost:3200/scrape
+Content-Type: application/json
+
+{
+  "price": 30,
+  "date": "2024-01-01T12:00:00Z",
+}
